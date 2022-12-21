@@ -59,7 +59,7 @@ export function Portfolio() {
                             <div className={styles.cardRepo}>
                                 <h3 className={styles.repoTitle} key={repo.id}>{repo.name}</h3>
                                 <p className={styles.repoTexto}>{repo.description}</p>
-                                <a className={styles.repoLink} href={repo.html_url} target='_blank'><ArrowBendDownRight size={150} color="#686AAC" weight="thin"/></a>
+                                <a className={styles.repoLink} href={repo.html_url} target='_blank'><ArrowBendDownRight size={150} color="#686AAC"/></a>
                             </div>
                         )}
                     </div>

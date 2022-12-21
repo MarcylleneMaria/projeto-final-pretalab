@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Header } from '../components/Header'
 import contatoImg from '../assets/contato.svg'
-import { database } from '../service/firebase'
+import { database } from '../services/firebase'
 import { ref, push, set } from 'firebase/database'
 import styles from '../styles/pages/contato.module.css'
 
