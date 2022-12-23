@@ -7,14 +7,13 @@ import { getDatabase } from 'firebase/database';
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyD7hYuMpBO37JRHWAx5t8WBH-JvjVgBOTo",
-  authDomain: "projeto-final-marcyllene-react.firebaseapp.com",
-  projectId: "projeto-final-marcyllene-react",
-  storageBucket: "projeto-final-marcyllene-react.appspot.com",
-  messagingSenderId: "223766697861",
-  appId: "1:223766697861:web:4200917388dac8ddf5d6ec",
-  measurementId: "G-EQ27WLZLME",
-  databaseURL: "https://projeto-final-marcyllene-react-default-rtdb.firebaseio.com/"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
+  databaseURL: import.meta.env.VITE_DATABASE_URL,
 }
 
 // Initialize Firebase
