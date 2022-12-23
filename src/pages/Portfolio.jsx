@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Header } from '../components/Header'
 import portfolioImg from '../assets/portfolio.svg'
-import Axios from 'axios';
+import Axios from 'axios'
 import { ArrowBendDownRight } from "phosphor-react"
 import styles from '../styles/pages/portfolio.module.css'
 
